@@ -59,6 +59,11 @@ For most developers starting with git, sometimes it's difficult to write the var
    ```shell
       git commit -m '...' --amend
    ```
+   
+### Join last commit with current change:
+```bash
+git add --all && git commit --amend --no-edit
+```
 
 ### To undo last modifications before push:
   - Delete all changes and commit before push. 
